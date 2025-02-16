@@ -1,0 +1,37 @@
+# Python Bytecode and Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment Variables and Secrets
+.env
+*.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code specific
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Migrations (Optional - Include if you don't want to track migrations)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Compiled and Temporary Files
+*.bak
+*.swp
+*.tmp
